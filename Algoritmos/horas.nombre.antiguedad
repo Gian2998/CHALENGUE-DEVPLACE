@@ -1,0 +1,28 @@
+Algoritmo anti
+	Definir  horas, antiguedad, valor_hora Como Entero;
+	Definir nombre Como Caracter;
+	
+	Escribir "ingrese su nombre ";
+	Leer nombre;
+	Escribir "antiguedad ";
+	Leer antiguedad;
+	Escribir "horas trabajadas";
+	Leer horas;
+	
+	valor_hora=40 ;
+	
+	totalhoras=valor_hora*horas;
+	
+	antiguedad_reconocida=totalhoras+antiguedad*30;
+	
+	Si antiguedad>10 Entonces
+		
+		Escribir " Nombre:",nombre " antiguedad :", antiguedad " total a cobrar:" antiguedad_reconocida ;
+	SiNo
+		Escribir " Nombre :",nombre " antiguedad :",antiguedad " total a cobrar :",totalhoras;
+	Fin Si
+
+	
+	
+	
+FinAlgoritmo
